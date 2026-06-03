@@ -1,0 +1,24 @@
+.main-header{
+    display: flex;
+    background-color: aqua;
+}
+.nav{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    text-align: justify;
+}
+.nav a{
+    text-decoration: none;
+    justify-content: space-between;
+    margin: 4px;
+    margin-top: 1px;
+    font-size: medium;
+
+}
+.login-form{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    
+}
