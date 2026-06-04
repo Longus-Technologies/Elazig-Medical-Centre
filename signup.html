@@ -4,21 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
     <div class="signup-form">
-        <h2>Sign Up</h2> 
-        <h3>Already a Member?<a href="login.html">Login In</a></h3>
-    <form action="/signup">
-        <label for="name">Name</label>
-        <input type="text" name="name" class="inputs"><br>
-        <label for="email">Email</label>
-        <input type="email" name="email" class="inputs"><br>
-        <label for="password">Password</label>
-        <input type="password" name="password" class="inputs"><br>
-        <button type="submit" class="signup-btn">Sign Up</button>
+        <div class="card">
+            <div class="left-panel">
+                <h1>Create Account</h1>
+                <p>Start managing your stores, inventory, and sales from one platform</p>
+            </div>
+            <div class="right-panel">
+                <h2>Sign Up</h2> 
+                <form action="/signup">
+                    <div class="input-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" name="name" class="inputs">
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" class="inputs">
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" class="inputs">
+                    </div>
+                    <div class="input-group">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" placeholder="Confirm password">
+                    </div>
+                <button type="submit" class="signup-btn">Create Account</button>
+                <p class="link">
+                    Already have an account?
+                    <a href="login.html">Login</a>
+                </p>
 
-    </form>
+                </form>
+
+            </div>
+        </div>
+    
     </div>
     
 </body>

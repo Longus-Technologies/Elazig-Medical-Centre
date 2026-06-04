@@ -30,9 +30,10 @@ body{
 .logo{
     /* flex-shrink: 0; /* Prevens logo from squeezing */
     /* margin-left: 30px;  */
-    width: 35%;
+    /* width: 35%; */
     display: flex;
     align-items: center;
+    overflow: none;
 }
 .nav{
     /* flex-grow: 1; */
@@ -42,7 +43,7 @@ body{
     align-items: center;
     /* margin-left: 50px; */
     /* margin-right: 20px; */
-    gap: 25px;
+    gap: 35px;
 }
 .nav a{
     text-decoration: none;
@@ -88,8 +89,3 @@ footer {
     border-top: 1px solid #e9ecef;
 }
 
-.login-form{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    align-items: center;
-    
-}

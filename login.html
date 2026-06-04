@@ -4,20 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
     <div class="login-form">
-        <h2>Login In</h2> 
-        <h3>Not a Member?<a href="signup.html">Sign Up</a></h3>
+        <div class="card">
+            <div class="left-panel">
+                <h1>Welcome Back</h1>
+                <p>Access your POS dashboard and manage your business</p>
+        </div>
+        <div class="right-panel">
+            <h2>Log In</h2> 
+
         <form action="/login">
-            <label for="email">Email</label>
-            <input type="email" name="email" class="inputs"><br>
-            <label for="password">Password</label>
-            <input type="password" name="password" class="inputs"><br>
-            <button type="submit" class="login-btn">Sign Up</button>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" class="inputs">
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" class="inputs">
+            </div>
+        
+            <button type="submit" class="login-btn">Sign In</button>
+            <p class="link">
+                Don't have an account?
+                <a href="signup.html">Sign Up</a>
+            </p>
         </form>
     </div>
-    
+    </div>
+    </div>
 </body>
 </html>
